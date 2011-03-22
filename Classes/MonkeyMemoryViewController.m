@@ -34,27 +34,22 @@
     return numbersInArray;
 }
 
-- (void)changeButtonLabel:(int)buttonWithLabelTag toNewLabel:(NSNumber *)newLabelText {
+- (void)setupButtons {
 
-    // Convert from NSNumber to NSString
-    NSString *aTitle = [NSString stringWithFormat:@"%@", newLabelText];
-
-    UIButton *button = (UIButton *)[self.view viewWithTag:buttonWithLabelTag];
-    [button setTitle:aTitle forState:UIControlStateNormal];
+    uniqueRandomNumbers = [self createRandomNumbers];
+    
+    for (int i = 1; i < 10; i++) {
+        NSString *aTitle = [NSString stringWithFormat:@"%@", [uniqueRandomNumbers objectAtIndex:i-1]];
+        
+        UIButton *button = (UIButton *)[self.view viewWithTag:i];
+        [button setTitle:aTitle forState:UIControlStateNormal];
+    }
 }
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    uniqueRandomNumbers = [self createRandomNumbers];
-
-    for (int i = 0; i < 9; i++) {
-        NSString *aTitle = [NSString stringWithFormat:@"%@", [uniqueRandomNumbers objectAtIndex:i]];
-        
-        UIButton *button = (UIButton *)[self.view viewWithTag:i];
-        [button setTitle:aTitle forState:UIControlStateNormal];
-    }
+    [self setupButtons];
 }
 
 - (void)didReceiveMemoryWarning {

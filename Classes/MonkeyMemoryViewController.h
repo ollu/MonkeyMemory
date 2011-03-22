@@ -14,7 +14,7 @@
 
 @property (nonatomic, retain) NSMutableArray *uniqueRandomNumbers;
 
-- (void)changeButtonLabel:(int)buttonWithLabelTag toNewLabel:(NSNumber *)newLabelText;
+- (void)setupButtons;
 - (NSMutableArray *)createRandomNumbers;
 
 - (IBAction)buttonPressed:(UIButton *)sender;
