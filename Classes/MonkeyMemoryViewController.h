@@ -9,8 +9,15 @@
 #import <UIKit/UIKit.h>
 
 @interface MonkeyMemoryViewController : UIViewController {
-
+    NSMutableArray *uniqueRandomNumbers;
 }
+
+@property (nonatomic, retain) NSMutableArray *uniqueRandomNumbers;
+
+- (void)changeButtonLabel:(int)buttonWithLabelTag toNewLabel:(NSNumber *)newLabelText;
+- (NSMutableArray *)createRandomNumbers;
+
+- (IBAction)buttonPressed:(UIButton *)sender;
 
 @end
 
