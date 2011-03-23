@@ -15,6 +15,8 @@
 		2899E5220DE3E06400AC0155 /* MonkeyMemoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* MonkeyMemoryViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* MonkeyMemoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* MonkeyMemoryViewController.m */; };
+		6F748F43133A234500EF1BFC /* button-disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F748F41133A234500EF1BFC /* button-disabled.png */; };
+		6F748F45133A275000EF1BFC /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F748F44133A275000EF1BFC /* icon.png */; };
 		6FC03CE613388CD100EB3B51 /* button-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FC03CE513388CD100EB3B51 /* button-bg.png */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +33,8 @@
 		28D7ACF70DDB3853001CB0EB /* MonkeyMemoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonkeyMemoryViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* MonkeyMemory_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonkeyMemory_Prefix.pch; sourceTree = "<group>"; };
+		6F748F41133A234500EF1BFC /* button-disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-disabled.png"; path = "assets/button-disabled.png"; sourceTree = "<group>"; };
+		6F748F44133A275000EF1BFC /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = assets/icon.png; sourceTree = "<group>"; };
 		6FC03CE513388CD100EB3B51 /* button-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-bg.png"; path = "assets/button-bg.png"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* MonkeyMemory-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MonkeyMemory-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,6 +117,8 @@
 		6FC03CE413388C9B00EB3B51 /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				6F748F44133A275000EF1BFC /* icon.png */,
+				6F748F41133A234500EF1BFC /* button-disabled.png */,
 				6FC03CE513388CD100EB3B51 /* button-bg.png */,
 			);
 			name = assets;
@@ -170,6 +176,8 @@
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* MonkeyMemoryViewController.xib in Resources */,
 				6FC03CE613388CD100EB3B51 /* button-bg.png in Resources */,
+				6F748F43133A234500EF1BFC /* button-disabled.png in Resources */,
+				6F748F45133A275000EF1BFC /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

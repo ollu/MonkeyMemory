@@ -2,10 +2,10 @@
 <archive type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="7.10">
 	<data>
 		<int key="IBDocument.SystemTarget">1056</int>
-		<string key="IBDocument.SystemVersion">10J567</string>
+		<string key="IBDocument.SystemVersion">10J869</string>
 		<string key="IBDocument.InterfaceBuilderVersion">1305</string>
 		<string key="IBDocument.AppKitVersion">1038.35</string>
-		<string key="IBDocument.HIToolboxVersion">462.00</string>
+		<string key="IBDocument.HIToolboxVersion">461.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 			<string key="NS.object.0">300</string>
@@ -73,6 +73,10 @@
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MC41AA</bytes>
 						</object>
+						<object class="NSCustomResource" key="IBUIDisabledBackgroundImage" id="147081130">
+							<string key="NSClassName">NSImage</string>
+							<string key="NSResourceName">button-disabled.png</string>
+						</object>
 						<object class="NSCustomResource" key="IBUINormalBackgroundImage" id="503699174">
 							<string key="NSClassName">NSImage</string>
 							<string key="NSResourceName">button-bg.png</string>
@@ -96,6 +100,7 @@
 						<reference key="IBUIHighlightedTitleColor" ref="686621266"/>
 						<reference key="IBUINormalTitleColor" ref="686621266"/>
 						<reference key="IBUINormalTitleShadowColor" ref="445272472"/>
+						<reference key="IBUIDisabledBackgroundImage" ref="147081130"/>
 						<reference key="IBUINormalBackgroundImage" ref="503699174"/>
 					</object>
 					<object class="IBUIButton" id="1041889936">
@@ -116,6 +121,7 @@
 						<reference key="IBUIHighlightedTitleColor" ref="686621266"/>
 						<reference key="IBUINormalTitleColor" ref="686621266"/>
 						<reference key="IBUINormalTitleShadowColor" ref="445272472"/>
+						<reference key="IBUIDisabledBackgroundImage" ref="147081130"/>
 						<reference key="IBUINormalBackgroundImage" ref="503699174"/>
 					</object>
 					<object class="IBUIButton" id="374426076">
@@ -136,6 +142,7 @@
 						<reference key="IBUIHighlightedTitleColor" ref="686621266"/>
 						<reference key="IBUINormalTitleColor" ref="686621266"/>
 						<reference key="IBUINormalTitleShadowColor" ref="445272472"/>
+						<reference key="IBUIDisabledBackgroundImage" ref="147081130"/>
 						<reference key="IBUINormalBackgroundImage" ref="503699174"/>
 					</object>
 					<object class="IBUIButton" id="733569681">
@@ -156,6 +163,7 @@
 						<reference key="IBUIHighlightedTitleColor" ref="686621266"/>
 						<reference key="IBUINormalTitleColor" ref="686621266"/>
 						<reference key="IBUINormalTitleShadowColor" ref="445272472"/>
+						<reference key="IBUIDisabledBackgroundImage" ref="147081130"/>
 						<reference key="IBUINormalBackgroundImage" ref="503699174"/>
 					</object>
 					<object class="IBUIButton" id="1047181226">
@@ -176,6 +184,7 @@
 						<reference key="IBUIHighlightedTitleColor" ref="686621266"/>
 						<reference key="IBUINormalTitleColor" ref="686621266"/>
 						<reference key="IBUINormalTitleShadowColor" ref="445272472"/>
+						<reference key="IBUIDisabledBackgroundImage" ref="147081130"/>
 						<reference key="IBUINormalBackgroundImage" ref="503699174"/>
 					</object>
 					<object class="IBUIButton" id="696468910">
@@ -196,6 +205,7 @@
 						<reference key="IBUIHighlightedTitleColor" ref="686621266"/>
 						<reference key="IBUINormalTitleColor" ref="686621266"/>
 						<reference key="IBUINormalTitleShadowColor" ref="445272472"/>
+						<reference key="IBUIDisabledBackgroundImage" ref="147081130"/>
 						<reference key="IBUINormalBackgroundImage" ref="503699174"/>
 					</object>
 					<object class="IBUIButton" id="17043249">
@@ -216,6 +226,7 @@
 						<reference key="IBUIHighlightedTitleColor" ref="686621266"/>
 						<reference key="IBUINormalTitleColor" ref="686621266"/>
 						<reference key="IBUINormalTitleShadowColor" ref="445272472"/>
+						<reference key="IBUIDisabledBackgroundImage" ref="147081130"/>
 						<reference key="IBUINormalBackgroundImage" ref="503699174"/>
 					</object>
 					<object class="IBUIButton" id="670889158">
@@ -224,7 +235,6 @@
 						<string key="NSFrame">{{214, 354}, {102, 102}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
 						<reference key="IBUIBackgroundColor" ref="670655349"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<int key="IBUITag">9</int>
@@ -236,6 +246,7 @@
 						<reference key="IBUIHighlightedTitleColor" ref="686621266"/>
 						<reference key="IBUINormalTitleColor" ref="686621266"/>
 						<reference key="IBUINormalTitleShadowColor" ref="445272472"/>
+						<reference key="IBUIDisabledBackgroundImage" ref="147081130"/>
 						<reference key="IBUINormalBackgroundImage" ref="503699174"/>
 					</object>
 				</object>
@@ -436,14 +447,23 @@
 					<string>-1.CustomClassName</string>
 					<string>-2.CustomClassName</string>
 					<string>20.IBPluginDependency</string>
+					<string>20.IBUIButtonInspectorSelectedStateConfigurationMetadataKey</string>
 					<string>38.IBPluginDependency</string>
+					<string>38.IBUIButtonInspectorSelectedStateConfigurationMetadataKey</string>
 					<string>42.IBPluginDependency</string>
+					<string>42.IBUIButtonInspectorSelectedStateConfigurationMetadataKey</string>
 					<string>44.IBPluginDependency</string>
+					<string>44.IBUIButtonInspectorSelectedStateConfigurationMetadataKey</string>
 					<string>46.IBPluginDependency</string>
+					<string>46.IBUIButtonInspectorSelectedStateConfigurationMetadataKey</string>
 					<string>48.IBPluginDependency</string>
+					<string>48.IBUIButtonInspectorSelectedStateConfigurationMetadataKey</string>
 					<string>50.IBPluginDependency</string>
+					<string>50.IBUIButtonInspectorSelectedStateConfigurationMetadataKey</string>
 					<string>52.IBPluginDependency</string>
+					<string>52.IBUIButtonInspectorSelectedStateConfigurationMetadataKey</string>
 					<string>54.IBPluginDependency</string>
+					<string>54.IBUIButtonInspectorSelectedStateConfigurationMetadataKey</string>
 					<string>6.IBEditorWindowLastContentRect</string>
 					<string>6.IBPluginDependency</string>
 				</object>
@@ -452,14 +472,23 @@
 					<string>MonkeyMemoryViewController</string>
 					<string>UIResponder</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+					<real value="0.0"/>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+					<real value="0.0"/>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+					<real value="0.0"/>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+					<real value="0.0"/>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+					<real value="0.0"/>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+					<real value="0.0"/>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+					<real value="0.0"/>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+					<real value="0.0"/>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+					<real value="0.0"/>
 					<string>{{350, 654}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				</object>
@@ -515,8 +544,17 @@
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<object class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<string key="NS.key.0">button-bg.png</string>
-			<string key="NS.object.0">{102, 102}</string>
+			<bool key="EncodedWithXMLCoder">YES</bool>
+			<object class="NSArray" key="dict.sortedKeys">
+				<bool key="EncodedWithXMLCoder">YES</bool>
+				<string>button-bg.png</string>
+				<string>button-disabled.png</string>
+			</object>
+			<object class="NSMutableArray" key="dict.values">
+				<bool key="EncodedWithXMLCoder">YES</bool>
+				<string>{102, 102}</string>
+				<string>{102, 102}</string>
+			</object>
 		</object>
 		<string key="IBCocoaTouchPluginVersion">300</string>
 	</data>
