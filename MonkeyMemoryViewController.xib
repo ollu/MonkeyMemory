@@ -12,9 +12,10 @@
 		</object>
 		<object class="NSArray" key="IBDocument.IntegratedClassDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<string>IBProxyObject</string>
-			<string>IBUIView</string>
 			<string>IBUIButton</string>
+			<string>IBUIImageView</string>
+			<string>IBUIView</string>
+			<string>IBProxyObject</string>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -73,7 +74,7 @@
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MC41AA</bytes>
 						</object>
-						<object class="NSCustomResource" key="IBUIDisabledBackgroundImage" id="147081130">
+						<object class="NSCustomResource" key="IBUIDisabledBackgroundImage" id="547814215">
 							<string key="NSClassName">NSImage</string>
 							<string key="NSResourceName">button-disabled.png</string>
 						</object>
@@ -100,7 +101,7 @@
 						<reference key="IBUIHighlightedTitleColor" ref="686621266"/>
 						<reference key="IBUINormalTitleColor" ref="686621266"/>
 						<reference key="IBUINormalTitleShadowColor" ref="445272472"/>
-						<reference key="IBUIDisabledBackgroundImage" ref="147081130"/>
+						<reference key="IBUIDisabledBackgroundImage" ref="547814215"/>
 						<reference key="IBUINormalBackgroundImage" ref="503699174"/>
 					</object>
 					<object class="IBUIButton" id="1041889936">
@@ -121,7 +122,7 @@
 						<reference key="IBUIHighlightedTitleColor" ref="686621266"/>
 						<reference key="IBUINormalTitleColor" ref="686621266"/>
 						<reference key="IBUINormalTitleShadowColor" ref="445272472"/>
-						<reference key="IBUIDisabledBackgroundImage" ref="147081130"/>
+						<reference key="IBUIDisabledBackgroundImage" ref="547814215"/>
 						<reference key="IBUINormalBackgroundImage" ref="503699174"/>
 					</object>
 					<object class="IBUIButton" id="374426076">
@@ -142,7 +143,7 @@
 						<reference key="IBUIHighlightedTitleColor" ref="686621266"/>
 						<reference key="IBUINormalTitleColor" ref="686621266"/>
 						<reference key="IBUINormalTitleShadowColor" ref="445272472"/>
-						<reference key="IBUIDisabledBackgroundImage" ref="147081130"/>
+						<reference key="IBUIDisabledBackgroundImage" ref="547814215"/>
 						<reference key="IBUINormalBackgroundImage" ref="503699174"/>
 					</object>
 					<object class="IBUIButton" id="733569681">
@@ -163,7 +164,7 @@
 						<reference key="IBUIHighlightedTitleColor" ref="686621266"/>
 						<reference key="IBUINormalTitleColor" ref="686621266"/>
 						<reference key="IBUINormalTitleShadowColor" ref="445272472"/>
-						<reference key="IBUIDisabledBackgroundImage" ref="147081130"/>
+						<reference key="IBUIDisabledBackgroundImage" ref="547814215"/>
 						<reference key="IBUINormalBackgroundImage" ref="503699174"/>
 					</object>
 					<object class="IBUIButton" id="1047181226">
@@ -184,7 +185,7 @@
 						<reference key="IBUIHighlightedTitleColor" ref="686621266"/>
 						<reference key="IBUINormalTitleColor" ref="686621266"/>
 						<reference key="IBUINormalTitleShadowColor" ref="445272472"/>
-						<reference key="IBUIDisabledBackgroundImage" ref="147081130"/>
+						<reference key="IBUIDisabledBackgroundImage" ref="547814215"/>
 						<reference key="IBUINormalBackgroundImage" ref="503699174"/>
 					</object>
 					<object class="IBUIButton" id="696468910">
@@ -205,7 +206,7 @@
 						<reference key="IBUIHighlightedTitleColor" ref="686621266"/>
 						<reference key="IBUINormalTitleColor" ref="686621266"/>
 						<reference key="IBUINormalTitleShadowColor" ref="445272472"/>
-						<reference key="IBUIDisabledBackgroundImage" ref="147081130"/>
+						<reference key="IBUIDisabledBackgroundImage" ref="547814215"/>
 						<reference key="IBUINormalBackgroundImage" ref="503699174"/>
 					</object>
 					<object class="IBUIButton" id="17043249">
@@ -226,7 +227,7 @@
 						<reference key="IBUIHighlightedTitleColor" ref="686621266"/>
 						<reference key="IBUINormalTitleColor" ref="686621266"/>
 						<reference key="IBUINormalTitleShadowColor" ref="445272472"/>
-						<reference key="IBUIDisabledBackgroundImage" ref="147081130"/>
+						<reference key="IBUIDisabledBackgroundImage" ref="547814215"/>
 						<reference key="IBUINormalBackgroundImage" ref="503699174"/>
 					</object>
 					<object class="IBUIButton" id="670889158">
@@ -235,6 +236,7 @@
 						<string key="NSFrame">{{214, 354}, {102, 102}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView"/>
 						<reference key="IBUIBackgroundColor" ref="670655349"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<int key="IBUITag">9</int>
@@ -246,17 +248,33 @@
 						<reference key="IBUIHighlightedTitleColor" ref="686621266"/>
 						<reference key="IBUINormalTitleColor" ref="686621266"/>
 						<reference key="IBUINormalTitleShadowColor" ref="445272472"/>
-						<reference key="IBUIDisabledBackgroundImage" ref="147081130"/>
+						<reference key="IBUIDisabledBackgroundImage" ref="547814215"/>
 						<reference key="IBUINormalBackgroundImage" ref="503699174"/>
+					</object>
+					<object class="IBUIImageView" id="455388342">
+						<reference key="NSNextResponder" ref="774585933"/>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrameSize">{320, 121}</string>
+						<reference key="NSSuperview" ref="774585933"/>
+						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="215662964"/>
+						<bool key="IBUIAutoresizesSubviews">NO</bool>
+						<int key="IBUIContentMode">4</int>
+						<bool key="IBUIUserInteractionEnabled">NO</bool>
+						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+						<object class="NSCustomResource" key="IBUIImage">
+							<string key="NSClassName">NSImage</string>
+							<string key="NSResourceName">logo.png</string>
+						</object>
 					</object>
 				</object>
 				<string key="NSFrame">{{0, 20}, {320, 460}}</string>
 				<reference key="NSSuperview"/>
 				<reference key="NSWindow"/>
-				<reference key="NSNextKeyView" ref="215662964"/>
+				<reference key="NSNextKeyView" ref="455388342"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">1</int>
-					<bytes key="NSRGB">MC4yNTg4MjM1Mjk0IDAuMjU4ODIzNTI5NCAwLjI1ODgyMzUyOTQAA</bytes>
+					<bytes key="NSRGB">MC4yMDM5MjE1Njg2IDAuMjU4ODIzNTI5NCAwLjA3MDU4ODIzNTI5AA</bytes>
 				</object>
 				<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
 				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
@@ -390,6 +408,7 @@
 							<reference ref="215662964"/>
 							<reference ref="934572219"/>
 							<reference ref="1041889936"/>
+							<reference ref="455388342"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -438,6 +457,11 @@
 						<reference key="object" ref="670889158"/>
 						<reference key="parent" ref="774585933"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">56</int>
+						<reference key="object" ref="455388342"/>
+						<reference key="parent" ref="774585933"/>
+					</object>
 				</object>
 			</object>
 			<object class="NSMutableDictionary" key="flattenedProperties">
@@ -464,6 +488,7 @@
 					<string>52.IBUIButtonInspectorSelectedStateConfigurationMetadataKey</string>
 					<string>54.IBPluginDependency</string>
 					<string>54.IBUIButtonInspectorSelectedStateConfigurationMetadataKey</string>
+					<string>56.IBPluginDependency</string>
 					<string>6.IBEditorWindowLastContentRect</string>
 					<string>6.IBPluginDependency</string>
 				</object>
@@ -489,6 +514,7 @@
 					<real value="0.0"/>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<real value="0.0"/>
+					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>{{350, 654}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				</object>
@@ -505,7 +531,7 @@
 				<reference key="dict.values" ref="0"/>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">55</int>
+			<int key="maxID">56</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -549,11 +575,13 @@
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<string>button-bg.png</string>
 				<string>button-disabled.png</string>
+				<string>logo.png</string>
 			</object>
 			<object class="NSMutableArray" key="dict.values">
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<string>{102, 102}</string>
 				<string>{102, 102}</string>
+				<string>{305, 121}</string>
 			</object>
 		</object>
 		<string key="IBCocoaTouchPluginVersion">300</string>

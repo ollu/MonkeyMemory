@@ -27,14 +27,13 @@
     if (![correctOrder lastObject]) {
 		NSString *windowTitle = @"Du klarade det!";
 		NSString *gameResult = [NSString stringWithFormat:@"Du behövde %d klick \nför att hitta alla siffrorna.\nFörsök igen och \nförbättra ditt resultat.", clickCount];
-		NSString *gameCancelButtonText = @"Givet!";
+		NSString *newGame = @"Givet!";
         
         UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:windowTitle
                                                         message:gameResult	
                                                        delegate:self 
-                                              cancelButtonTitle:gameCancelButtonText 
+                                              cancelButtonTitle:newGame 
                                               otherButtonTitles: nil] autorelease];
-        
         [alert show];
     }
 }

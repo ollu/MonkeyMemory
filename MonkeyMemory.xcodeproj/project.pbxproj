@@ -17,6 +17,7 @@
 		28D7ACF80DDB3853001CB0EB /* MonkeyMemoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* MonkeyMemoryViewController.m */; };
 		6F748F43133A234500EF1BFC /* button-disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F748F41133A234500EF1BFC /* button-disabled.png */; };
 		6F748F45133A275000EF1BFC /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F748F44133A275000EF1BFC /* icon.png */; };
+		6F748F47133A2C2000EF1BFC /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F748F46133A2C2000EF1BFC /* logo.png */; };
 		6FC03CE613388CD100EB3B51 /* button-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FC03CE513388CD100EB3B51 /* button-bg.png */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +25,7 @@
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* MonkeyMemoryAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonkeyMemoryAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* MonkeyMemoryAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonkeyMemoryAppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* MonkeyMemory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonkeyMemory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* Monkey Memo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Monkey Memo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2899E5210DE3E06400AC0155 /* MonkeyMemoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MonkeyMemoryViewController.xib; sourceTree = "<group>"; };
@@ -35,6 +36,7 @@
 		32CA4F630368D1EE00C91783 /* MonkeyMemory_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonkeyMemory_Prefix.pch; sourceTree = "<group>"; };
 		6F748F41133A234500EF1BFC /* button-disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-disabled.png"; path = "assets/button-disabled.png"; sourceTree = "<group>"; };
 		6F748F44133A275000EF1BFC /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = assets/icon.png; sourceTree = "<group>"; };
+		6F748F46133A2C2000EF1BFC /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = assets/logo.png; sourceTree = "<group>"; };
 		6FC03CE513388CD100EB3B51 /* button-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-bg.png"; path = "assets/button-bg.png"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* MonkeyMemory-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MonkeyMemory-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,7 +69,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* MonkeyMemory.app */,
+				1D6058910D05DD3D006BFB54 /* Monkey Memo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,6 +119,7 @@
 		6FC03CE413388C9B00EB3B51 /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				6F748F46133A2C2000EF1BFC /* logo.png */,
 				6F748F44133A275000EF1BFC /* icon.png */,
 				6F748F41133A234500EF1BFC /* button-disabled.png */,
 				6FC03CE513388CD100EB3B51 /* button-bg.png */,
@@ -141,7 +144,7 @@
 			);
 			name = MonkeyMemory;
 			productName = MonkeyMemory;
-			productReference = 1D6058910D05DD3D006BFB54 /* MonkeyMemory.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* Monkey Memo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -178,6 +181,7 @@
 				6FC03CE613388CD100EB3B51 /* button-bg.png in Resources */,
 				6F748F43133A234500EF1BFC /* button-disabled.png in Resources */,
 				6F748F45133A275000EF1BFC /* icon.png in Resources */,
+				6F748F47133A2C2000EF1BFC /* logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,7 +211,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = MonkeyMemory_Prefix.pch;
 				INFOPLIST_FILE = "MonkeyMemory-Info.plist";
-				PRODUCT_NAME = MonkeyMemory;
+				PRODUCT_NAME = "Monkey Memo";
 			};
 			name = Debug;
 		};
@@ -219,7 +223,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = MonkeyMemory_Prefix.pch;
 				INFOPLIST_FILE = "MonkeyMemory-Info.plist";
-				PRODUCT_NAME = MonkeyMemory;
+				PRODUCT_NAME = "Monkey Memo";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
