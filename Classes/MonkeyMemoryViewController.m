@@ -13,14 +13,36 @@
 @synthesize uniqueRandomNumbers;
 @synthesize correctOrder;
 @synthesize timer;
+@synthesize clickCount;
 
 - (IBAction)buttonPressed:(UIButton *)sender {
+    
+    clickCount++;
+    
     if ([sender.titleLabel.text isEqual:[NSString stringWithFormat:@"%@", [correctOrder objectAtIndex:0]]]) {
         [correctOrder removeObjectAtIndex:0];
         sender.enabled = NO;
     }
-    NSLog(@"You pressed: %@", sender.titleLabel.text);
-    NSLog(@"The order is: %@", correctOrder);
+    
+    if (![correctOrder lastObject]) {
+		NSString *windowTitle = @"Du klarade det!";
+		NSString *gameResult = [NSString stringWithFormat:@"Du behövde %d klick \nför att hitta alla siffrorna.\nFörsök igen och \nförbättra ditt resultat.", clickCount];
+		NSString *gameCancelButtonText = @"Givet!";
+        
+        UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:windowTitle
+                                                        message:gameResult	
+                                                       delegate:self 
+                                              cancelButtonTitle:gameCancelButtonText 
+                                              otherButtonTitles: nil] autorelease];
+        
+        [alert show];
+    }
+}
+
+- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
+    if (buttonIndex == 0) {
+        [self resetAndNewGame];
+    }
 }
 
 - (NSMutableArray *)createArray:(int)withAmoutOfNumbers {
@@ -67,12 +89,21 @@
 - (void)init {
     [self setupButtons];
     self.correctOrder = [self createArray:9];
+    self.clickCount = 0;
     
     timer = [NSTimer scheduledTimerWithTimeInterval:2 
                                              target:self 
                                            selector:@selector(hideLabels) 
                                            userInfo:nil 
                                             repeats:NO];    
+}
+
+- (void)resetAndNewGame {
+    for (int i = 1; i < 10; i++) {   
+        UIButton *button = (UIButton *)[self.view viewWithTag:i];
+        button.enabled = YES;
+    }
+    [self init];
 }
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
